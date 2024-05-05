@@ -2,6 +2,7 @@ import java.sql.*;
 import java.util.*;
 import java.util.regex.*;
 
+
 public class Main {
     static boolean isanqgram(String a, String b){
         int jml = b.length()-1;
@@ -156,6 +157,7 @@ public class Main {
             System.out.println();
         }
     }
+
     public static void main(String[] args) {
     }
 }
